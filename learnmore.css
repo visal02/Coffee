@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    background: rgb(139, 139, 216);
+    opacity: 70%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    color: black;
+    transition: 0.2s;
+}
+h1:hover{
+    color: chartreuse;
+}
+h2:hover{
+    color: chartreuse;
+}
+.card {
+    background:url(https://img.freepik.com/free-photo/silhouette-trees-against-dramatic-orange-sky-generated-by-ai_188544-43195.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 600px;
+}
+.coffee {
+    border-top: 5px solid rgba(88, 27, 27, 0.596);
+}
+.tea {
+    border-top: 5px solid green;
+}
+h2 {
+    color:#f8f8f8;
+    font-size:60px;
+}
+ul {
+    text-align: left;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    color: #000000;
+    padding: 2px 5px;
+    font-size: 1.5rem;
+    margin: 2px 5px;
+}

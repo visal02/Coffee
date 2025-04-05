@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="/order.css">
+</head>
+<body>
+    <div class="containerr">
+
+        <h2>Order Form</h2>
+        <label>Client Name: <input type="text" id="client-name"></label>
+        <label>Date: <input type="date" id="order-date"></label>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="order-items">
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" class="product"></td>
+                    <td><input type="number" class="quantity" value="1" min="1"></td>
+                    <td><input type="number" class="unit-price" value="0" min="0"></td>
+                    <td class="total-price">0</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="addRow()">Add Item</button>
+        <div class="total-section">
+            <p>Subtotal: <span id="subtotal">0</span></p>
+            <p>Discount: <input type="number" id="discount" value="0" min="0"></p>
+            <p>Total: <span id="total">0</span></p>
+        </div>
+        <button onclick="calculateTotal()">Calculate Total</button>
+    </div>
+    <script src="/order.js"></script>
+</body>
+</html>
