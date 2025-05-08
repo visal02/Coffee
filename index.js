@@ -9,6 +9,8 @@
 //     menu.classList.remove('bx');
 //     navbar.classList.remove('active');
 // }
+
+
 document.addEventListener("DOMContentLoaded", () => {
     let menu = document.querySelector('#menu-icon');
     let navbar = document.querySelector('.navbar');
@@ -23,3 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
         navbar.classList.remove('active');
     }
 });
+
+
