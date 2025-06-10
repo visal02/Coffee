@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:bisque;
+    background-color:rgb(228, 225, 221);
     opacity: 70%;
     
 }
@@ -22,10 +22,10 @@ body {
     }
 }
 h2{
-    color: #28a745;
+    color: #28a546;
 }
 label{
-    color: greenyellow;
+    color: rgb(0, 0, 0);
 }
 table {
     width: 100%;

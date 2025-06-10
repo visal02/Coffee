@@ -3,7 +3,7 @@ body {
     background-color: #f8f8f8;
     text-align: center;
     padding: 20px;
-    background: rgb(139, 139, 216);
+    background: rgb(248, 248, 255);
     opacity: 70%;
 }
 .container {
@@ -14,9 +14,6 @@ body {
 h1{
     color: black;
     transition: 0.2s;
-}
-h1:hover{
-    color: chartreuse;
 }
 h2:hover{
     color: chartreuse;
