@@ -240,15 +240,16 @@ img{
     text-align: justify;
 }
 .contact{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    background-color: #ebdbc8;
     align-items: center;
 }
 .contact a{
-    font-size: 27px;
+    color: #000000;
+    font-size: 16px;
     margin: 0.5rem;
+}
+.contact a:hover{
+    color: var(--main-color);
 }
 .socail a .bx{
     padding: 5px;
@@ -396,3 +397,4 @@ img{
             border-radius: 5px;
             cursor: pointer;
         }
+       
